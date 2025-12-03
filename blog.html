@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Tech Blog</title>
+  </head>
+  <body>
+    <label for="name">ชื่อ:</label>
+    <input type="text" id="name" name="name" required />
+    <label for="email">อีเมล:</label>
+    <input type="email" id="email" name="email" required />
+    <label for="password">รหัสผ่าน:</label>
+    <input type="password" id="password" name="password" />
+    <!-- Number -->
+    <label for="age">อายุ:</label>
+    <input type="number" id="age" name="age" min="0" max="150" />
+    <!-- Date -->
+    <label for="birthdate">วันเกิด:</label>
+    <input type="date" id="birthdate" name="birthdate" />
+    <!-- Checkbox -->
+    <input type="checkbox" id="agree" name="agree" />
+    <label for="agree">ฉันยอมรับเงื่อนไข</label>
+    <!-- Radio Button -->
+    <input type="radio" id="male" name="gender" value="male" />
+    <label for="male">ชาย</label>
+    <input type="radio" id="female" name="gender" value="female" />
+    <label for="female">หญิง</label>
+    <!-- Select Dropdown -->
+    <label for="country">ประเทศ:</label>
+    <select id="country" name="country">
+      <option value="">เลือก...</option>
+      <option value="th">ไทย</option>
+      <option value="us">สหรัฐอเมริกา</option>
+    </select>
+    <!-- Textarea -->
+    <label for="message">ข้อความ:</label>
+    <textarea id="message" name="message" rows="5" cols="40"></textarea>
+    <!-- Button -->
+    <button type="button">ปุ่ มธรรมดา</button>
+    <button type="submit">ปุ่ มส่งข้อมูล</button>
+  </body>
+</html>
