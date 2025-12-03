@@ -6,38 +6,62 @@
     <title>My Tech Blog</title>
   </head>
   <body>
-    <label for="name">ชื่อ:</label>
-    <input type="text" id="name" name="name" required />
-    <label for="email">อีเมล:</label>
-    <input type="email" id="email" name="email" required />
-    <label for="password">รหัสผ่าน:</label>
-    <input type="password" id="password" name="password" />
-    <!-- Number -->
-    <label for="age">อายุ:</label>
-    <input type="number" id="age" name="age" min="0" max="150" />
-    <!-- Date -->
-    <label for="birthdate">วันเกิด:</label>
-    <input type="date" id="birthdate" name="birthdate" />
-    <!-- Checkbox -->
-    <input type="checkbox" id="agree" name="agree" />
-    <label for="agree">ฉันยอมรับเงื่อนไข</label>
-    <!-- Radio Button -->
-    <input type="radio" id="male" name="gender" value="male" />
-    <label for="male">ชาย</label>
-    <input type="radio" id="female" name="gender" value="female" />
-    <label for="female">หญิง</label>
-    <!-- Select Dropdown -->
-    <label for="country">ประเทศ:</label>
-    <select id="country" name="country">
-      <option value="">เลือก...</option>
-      <option value="th">ไทย</option>
-      <option value="us">สหรัฐอเมริกา</option>
-    </select>
-    <!-- Textarea -->
-    <label for="message">ข้อความ:</label>
-    <textarea id="message" name="message" rows="5" cols="40"></textarea>
-    <!-- Button -->
-    <button type="button">ปุ่ มธรรมดา</button>
-    <button type="submit">ปุ่ มส่งข้อมูล</button>
+    <!-- Header Section -->
+    <header>
+      <h1>My Tech Blog</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">หน้าแรก</a></li>
+          <li><a href="#articles">บทความ</a></li>
+          <li><a href="#about">เกี่ยวกับเรา</a></li>
+          <li><a href="#contact">ติดต่อ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+      <section id="articles">
+        <article>
+          <h2>Introduction to HTML</h2>
+          <p>
+            HTML (HyperText Markup Language) เป็นพื้นฐานของการพัฒนาเว็บไซต์
+            ใช้สำหรับสร้างโครงสร้างและเนื้อหาของหน้าเว็บด้วย tags ต่างๆ
+          </p>
+          <a href="#read-more-html">Read More</a>
+        </article>
+
+        <article>
+          <h2>Mastering CSS Styling</h2>
+          <p>
+            CSS ใช้สำหรับตกแต่งส่วนต่างๆ ของเว็บไซต์ เช่น สี ฟอนต์ ระยะห่าง
+            และเลย์เอาต์ให้สวยงาม
+          </p>
+          <a href="#read-more-css">Read More</a>
+        </article>
+
+        <article>
+          <h2>JavaScript Programming Basics</h2>
+          <p>
+            JavaScript เป็นภาษาที่ทำให้เว็บไซต์โต้ตอบกับผู้ใช้ได้ เช่น คลิก,
+            hover, ตรวจสอบฟอร์ม
+          </p>
+          <a href="#read-more-js">Read More</a>
+        </article>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2025 My Tech Blog. All rights reserved.</p>
+      <nav>
+        <ul>
+          <li><a href="#home">หน้าแรก</a></li>
+          <li><a href="#articles">บทความ</a></li>
+          <li><a href="#about">เกี่ยวกับเรา</a></li>
+          <li><a href="#contact">ติดต่อ</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
